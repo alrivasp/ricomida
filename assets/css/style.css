@@ -1,0 +1,382 @@
+body {
+    font-family: 'Lobster', cursive;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* NabVar Principal */
+.logo-ppal {
+    font-family: 'Lobster', cursive;
+    font-size: 2.313rem;
+    font-weight: 400;
+}
+
+.fonts-menu-ppal {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* Section Uno */
+.s-uno-borde {
+    border-top: 0.060rem solid #000000;
+}
+
+.s-uno-borde-dos {
+    border-top: 0.060rem solid #000000;
+}
+
+.s-uno-title {
+    font-size: 1.563rem;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+    line-height: 1.875rem;
+    color: #373A3C;
+}
+
+.s-uno-description {
+    color: #373A3C;
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 1.063rem;
+    margin-bottom: 1.875rem;
+    font-size: 1rem;
+}
+
+.s-uno-bottom {
+    border: 0.063rem solid #DDDDDD;
+    background-color: #FFFFFF;
+    color: #373A3C;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 0.813rem;
+    padding: 0.781rem 0.621rem 0.781rem 0.621rem;
+    text-decoration: none;
+}
+
+/* Carrusel */
+.carousel-indicators{
+    top: 120px;    
+}
+
+.carousel-indicators li{    
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #373A3C;
+}
+
+
+.corusel-border{
+    border-bottom: 0.060rem solid #000000;
+}
+
+/* Seccion Dos */
+.s-dos-reseta {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Cabin', sans-serif;
+    letter-spacing: 0.044rem;
+    line-height: 2.188rem;
+    text-align: left;
+    color: #373A3C;
+}
+
+.s-dos-subrayado-buttom {
+    border-bottom: 0.063rem solid #000000;
+}
+
+.s-dos-subrayado-top {
+    border-top: 0.063rem solid #000000;
+}
+
+/* Seccion Tres */
+.s-tres-title {
+    font-weight: 700;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 1.875rem;
+    border-top: 0.063rem solid #000000;
+    margin-bottom: 2.375rem;
+    font-size: 1.563rem;
+    color: #373A3C;
+}
+
+.s-tres-cards {
+    width: 15.375rem;
+    height: 23.613rem;
+}
+
+.s-tres-img-cards {
+    width: 15.375rem;
+    height: 10.813rem;
+}
+
+.s-tres-subtitle {
+    color: #373A3C;
+    font-size: 1.063rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.s-tres-description {
+    color: #373A3C;
+    font-size: 0.938rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+/* Seccion Cuatro */
+.s-cuatro-title {
+    color: #FFFFFF;
+    font-size: 1.875rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 700;
+    line-height: 2.313rem;
+    margin-top: 5.938rem;
+}
+
+.s-cuatro-description {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: 'Cabin', sans-serif;
+    padding-left: 0.938rem;
+    padding-right: 0.938rem;
+    line-height: 1.25rem;
+    margin-top: 1.375rem;
+}
+
+.newsletter {
+    color: #FFFFFF;
+}
+
+.s-cuatro-ricomida {
+    font-family: 'Lobster', cursive;
+}
+
+
+.s-cuatro-buttom {
+    border: 0.063rem solid #DDDDDD;
+    padding: 0.688rem 5.625rem 0.688rem 5.625rem;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+
+a.s-cuatro-buttom:hover {
+    background-color: #343A40;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Footer */
+
+.footer {
+    padding: 2.563rem 5.688rem 2.563rem 5.688rem;
+}
+
+.footer-title {
+    color: #FFFFFF;
+    font-size: 2.313rem;
+    font-weight: 400;
+}
+
+/* ToolTip */
+.tooltip-inner {
+    background-color: #343A40;
+    font-size: 12px !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: #343A40 !important;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #343A40 !important;
+}
+
+/* Media Query Tamaños superiores a 576px */
+/* Resolucion SM */
+@media (min-width: 576px) {
+    /* Navbar */
+
+    /* Seccion Uno */
+
+    /* Seccion Dos */
+
+    /* Seccion Tres */
+    .s-tres-cards {
+        width: 15.375rem;
+        height: 23.613rem;
+    }
+    
+    .s-tres-img-cards {
+        width: 15.375rem;
+        height: 10.813rem;
+    }
+
+    /* Seccion Cuatro */
+
+    /* Footer */
+}
+
+/* Resolucion MD */
+@media (min-width: 768px) {
+    /* Navbar */
+
+    /* Seccion Uno */
+    .s-uno-borde {
+        border-top: 0rem solid #000000;
+    }
+
+    /* Seccion Dos */
+    .s-dos-subrayado-buttom {
+        border-bottom: 0rem solid #000000;
+    }
+
+    .s-dos-subrayado-top {
+        border-top: 0rem solid #000000;
+    }
+
+    .s-dos-subrayado-title{
+        border-bottom: 0.063rem solid #000000;
+    }
+
+    /* Seccion Tres */
+    .s-tres-cards {
+        width: 15.375rem;
+        height: 23.613rem;
+    }
+    
+    .s-tres-img-cards {
+        width: 15.375rem;
+        height: 10.813rem;
+    }
+
+    /* Seccion Cuatro */
+
+    /* Footer */
+}
+
+/* Resolucion LG */
+@media (min-width: 992px) {
+    /* Navbar */
+
+    /* Seccion Uno */
+    .s-uno-title{
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: 'Cabin', sans-serif;
+        line-height: 3.063rem;
+        color: #373A3C;
+        margin-top: 25px;
+    }
+
+    .s-uno-description{
+        color: #373A3C;
+        font-weight: 700;
+        font-family: 'Cabin', sans-serif;
+        padding-top: 17px;
+        margin-bottom: 24px;
+        font-size: 20px;
+    }
+
+    .s-uno-bottom {
+        border: 0.063rem solid #DDDDDD;
+        color: #373A3C;
+        font-family: 'Cabin', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        padding: 10.5px 14px 10.5px 14px;
+        text-decoration: none;   
+        margin-right: 24.29px; 
+    }
+
+    /* Seccion Dos */
+    .carousel-indicators{
+        top: 160px;    
+    }
+
+    /* Seccion Tres */
+
+    /* Seccion Cuatro */
+
+    /* Footer */
+    .s-tres-cards {
+        width: 15.375rem;
+        height: 23.613rem;
+    }
+    
+    .s-tres-img-cards {
+        width: 15.375rem;
+        height: 10.813rem;
+    }
+}
+
+/* Resolucion XL */
+@media (min-width: 1200px) {
+    /* Navbar */
+
+    /* Seccion Uno */
+    .s-uno-img-ppal{
+        width: 100vw;
+        height: 380px;
+    }
+
+    .carousel-indicators{
+        top: 190px;    
+    }
+
+    .s-uno-title{
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-family: 'Cabin', sans-serif;
+        line-height: 3.063rem;
+        color: #373A3C;
+        margin-top: 30px;
+    }
+
+    /* Seccion Dos */
+    .s-dos-reseta{
+        font-size: 20px;
+    }
+
+    /* Seccion Tres */
+    .s-tres-title{
+        font-size: 40px;
+    }
+
+    .s-tres-subtitle{
+        font-size: 23px;
+    }
+
+    .s-tres-description{
+        font-size: 16px;
+    }
+
+    .s-tres-cards {
+        width: 316px;
+        height: 378px;
+        
+    }
+
+    .s-tres-img-cards {
+        width: 100vw;
+        height: 180px;
+    }
+    /* Seccion Cuatro */
+
+    .s-cuatro-title{
+        font-size: 40px;
+    }
+
+    .s-cuatro-description{
+        font-size: 30px;
+    }
+
+    /* Footer */
+}
